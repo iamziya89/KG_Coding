@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/variable.css">
+    <title>Variables</title>
+</head>
+<body>
+    <button id="add_to_Bag" onclick="
+currentVal+=1;
+document.querySelector('#summery').innerText=`Your Bag has ${currentVal} items`;">Add to Bag</button>
+    <button id="move" onclick="currentVal-=1;
+document.querySelector('#summery').innerText=`Your Bag has ${currentVal} items`;">Move to Wishlist</button>
+    <button id="Add_1" onclick="currentVal+=2;
+document.querySelector('#summery').innerText=`Your Bag has ${currentVal} items`;">Add 1+1 sale item</button>
+    <h2 id="summery"></h2>
+    <script>
+      var currentVal=0;  
+    </script>
+</body>
+</html>

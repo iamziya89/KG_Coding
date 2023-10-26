@@ -1,0 +1,17 @@
+#add_to_Bag,#Add_1{
+    border: none;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: rgb(92, 250, 92);
+    border-radius: 10px;
+}
+#move{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
